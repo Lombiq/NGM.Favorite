@@ -12,9 +12,6 @@
         } else { 
         <button class="favorite notmarked-as-favorite" type="submit" value="true">@T("Un-mark as favorite")</button>
         }
-      <div class="favorite-current-result">
-        <span class="favorite-count">@Model.NumberOfFavorites</span>
-      </div>
       @Html.Hidden("contentId", (int)Model.ContentItem.Id)
       @Html.Hidden("ReturnUrl", Context.Request.ToUrlString()) 
     }
