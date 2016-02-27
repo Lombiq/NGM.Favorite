@@ -77,9 +77,7 @@
     <Content Include="Module.txt" />
     <Content Include="Content\Images\star-0.png" />
     <Content Include="Content\Images\star-15.png" />
-    <Content Include="Styles\NGM.Favorite.css">
-      <DependentUpon>NGM.Favorite.less</DependentUpon>
-    </Content>
+    <Content Include="Styles\NGM.Favorite.css" />
     <Content Include="Views\Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -115,9 +113,6 @@
     <Content Include="Content\Web.config">
       <SubType>Designer</SubType>
     </Content>
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Styles\NGM.Favorite.less" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
